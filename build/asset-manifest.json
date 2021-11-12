@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/simple-math-game/static/css/main.96c8ba2e.chunk.css",
+    "main.js": "/simple-math-game/static/js/main.0322e1a3.chunk.js",
+    "main.js.map": "/simple-math-game/static/js/main.0322e1a3.chunk.js.map",
+    "runtime-main.js": "/simple-math-game/static/js/runtime-main.4a2994be.js",
+    "runtime-main.js.map": "/simple-math-game/static/js/runtime-main.4a2994be.js.map",
+    "static/js/2.64bc1e32.chunk.js": "/simple-math-game/static/js/2.64bc1e32.chunk.js",
+    "static/js/2.64bc1e32.chunk.js.map": "/simple-math-game/static/js/2.64bc1e32.chunk.js.map",
+    "static/js/3.17570f65.chunk.js": "/simple-math-game/static/js/3.17570f65.chunk.js",
+    "static/js/3.17570f65.chunk.js.map": "/simple-math-game/static/js/3.17570f65.chunk.js.map",
+    "index.html": "/simple-math-game/index.html",
+    "static/css/main.96c8ba2e.chunk.css.map": "/simple-math-game/static/css/main.96c8ba2e.chunk.css.map",
+    "static/js/2.64bc1e32.chunk.js.LICENSE.txt": "/simple-math-game/static/js/2.64bc1e32.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a2994be.js",
+    "static/js/2.64bc1e32.chunk.js",
+    "static/css/main.96c8ba2e.chunk.css",
+    "static/js/main.0322e1a3.chunk.js"
+  ]
+}

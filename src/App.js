@@ -21,7 +21,7 @@ const PlayNumber = (props) => (
 const PlayAgain = props => (
   <div className="game-done">
     <div 
-      className="message"
+      className={`message ${props.gameStatus !== 'lost'&& "gamewon"}`}
       style={{ color: props.gameStatus === 'lost' ? 'red' : 'green' }}
     >
       {props.gameStatus === 'lost' ? 'GameOver' : 'Nice'}
