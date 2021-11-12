@@ -1,2 +1,0 @@
-# simple-math-game
-
