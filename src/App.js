@@ -34,13 +34,13 @@ const useGameState = () => {
   const [stars, setStars] = useState(utils.random(1,9));
   const [availableNums, setAvailableNums] = useState(utils.range(1,9));
   const [candidateNums, setCandidaiteNums] = useState([]);
-  const [secondsLeft, setSecondsLeft] = useState(10);
+  const [secondsLeft, setSecondsLeft] = useState(10.0);
   
   useEffect(() => {
     if(secondsLeft > 0 && availableNums.length > 0){
        const timeId = setTimeout(()=>{
-         setSecondsLeft(secondsLeft - 1);
-       }, 1000);
+         setSecondsLeft((secondsLeft - 0.1).toFixed(2));
+       }, 100);
       // return () => clearTimeout(timeId)
     }
   });
@@ -73,7 +73,7 @@ const Game = (props) => {
   const candidateAreWrong = utils.sum(candidateNums) > stars;
   const gameStatus = availableNums.length === 0 
     ? 'won' 
-    : secondsLeft === 0 ? 'lost' : 'active';
+    : secondsLeft <= 0.0 ? 'lost' : 'active';
   
   const numberStatus = (number) => {
     if(!availableNums.includes(number)){
